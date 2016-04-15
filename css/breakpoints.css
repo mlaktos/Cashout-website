@@ -1,0 +1,51 @@
+/**
+*
+* Testing
+*
+**/
+@media (max-width: 320px) {
+  /* line 358, ../sass/breakpoints.scss */
+  .include-media-test {
+    background-color: #def;
+  }
+  /* line 362, ../sass/breakpoints.scss */
+  .include-media-test:before {
+    content: "<=phone";
+  }
+}
+@media (min-width: 321px) {
+  /* line 358, ../sass/breakpoints.scss */
+  .include-media-test {
+    background-color: #abc;
+  }
+  /* line 370, ../sass/breakpoints.scss */
+  .include-media-test:before {
+    content: ">phone";
+  }
+}
+@media (min-width: 815px) and (max-width: 1023px) {
+  /* line 358, ../sass/breakpoints.scss */
+  .include-media-test {
+    background-color: #fed;
+  }
+  /* line 378, ../sass/breakpoints.scss */
+  .include-media-test:before {
+    content: ">=815px, <desktop";
+  }
+}
+@media (min-width: 1024px) {
+  /* line 358, ../sass/breakpoints.scss */
+  .include-media-test {
+    background-color: #fab;
+  }
+  /* line 386, ../sass/breakpoints.scss */
+  .include-media-test:before {
+    content: ">=desktop";
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* line 392, ../sass/breakpoints.scss */
+  .include-media-test:after {
+    content: "Retina" !important;
+  }
+}

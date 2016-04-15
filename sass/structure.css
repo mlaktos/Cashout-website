@@ -1,0 +1,1483 @@
+/* -------------------------------------------------------------- */
+/* ------------------------- TYPOGRAPHY ------------------------- */
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700');*/
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic,700italic");
+/* line 152, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+html {
+  font-family: 'Lato', sans-serif; }
+
+/* line 156, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+body {
+  background-image: linear-gradient(-180deg, #EEEEEE 3%, #FFFFFF 98%);
+  background-repeat: no-repeat;
+  color: #341e39; }
+
+/* line 162, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+a {
+  text-decoration: none;
+  border-color: #49C1AC;
+  color: #49C1AC;
+  transition: color 0.2s ease; }
+
+/* line 169, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+a:hover {
+  color: #37a08e; }
+
+/* line 173, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+path {
+  transition: fill 0.2s ease; }
+
+/* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+p,
+a,
+ul,
+li {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    p,
+    a,
+    ul,
+    li {
+      font-size: 3.6vw;
+      line-height: 5.544vw;
+      letter-spacing: -0.108vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    p,
+    a,
+    ul,
+    li {
+      font-size: 2.4vw;
+      line-height: 3.696vw;
+      letter-spacing: -0.072vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    p,
+    a,
+    ul,
+    li {
+      font-size: 1.56vw;
+      line-height: 2.4024vw;
+      letter-spacing: -0.0468vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    p,
+    a,
+    ul,
+    li {
+      font-size: 1.2vw;
+      line-height: 1.848vw;
+      letter-spacing: -0.036vw;
+      font-kerning: normal; } }
+
+/* line 223, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h1 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 223, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h1 {
+      font-size: 9vw;
+      line-height: 9.9vw;
+      letter-spacing: -0.27vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 223, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h1 {
+      font-size: 6vw;
+      line-height: 6.6vw;
+      letter-spacing: -0.18vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 223, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h1 {
+      font-size: 3.9vw;
+      line-height: 4.29vw;
+      letter-spacing: -0.117vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 223, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h1 {
+      font-size: 3vw;
+      line-height: 3.3vw;
+      letter-spacing: -0.09vw;
+      font-kerning: normal; } }
+
+/* line 228, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h2 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 228, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h2 {
+      font-size: 7.5vw;
+      line-height: 8.25vw;
+      letter-spacing: -0.225vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 228, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h2 {
+      font-size: 5vw;
+      line-height: 5.5vw;
+      letter-spacing: -0.15vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 228, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h2 {
+      font-size: 3.25vw;
+      line-height: 3.575vw;
+      letter-spacing: -0.0975vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 228, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h2 {
+      font-size: 2.5vw;
+      line-height: 2.75vw;
+      letter-spacing: -0.075vw;
+      font-kerning: normal; } }
+
+/* line 233, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h3 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 233, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h3 {
+      font-size: 6vw;
+      line-height: 6.6vw;
+      letter-spacing: -0.18vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 233, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h3 {
+      font-size: 4vw;
+      line-height: 4.4vw;
+      letter-spacing: -0.12vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 233, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h3 {
+      font-size: 2.6vw;
+      line-height: 2.86vw;
+      letter-spacing: -0.078vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 233, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h3 {
+      font-size: 2vw;
+      line-height: 2.2vw;
+      letter-spacing: -0.06vw;
+      font-kerning: normal; } }
+
+/* line 238, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h4 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 238, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h4 {
+      font-size: 4.5vw;
+      line-height: 4.95vw;
+      letter-spacing: -0.135vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 238, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h4 {
+      font-size: 3vw;
+      line-height: 3.3vw;
+      letter-spacing: -0.09vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 238, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h4 {
+      font-size: 1.95vw;
+      line-height: 2.145vw;
+      letter-spacing: -0.0585vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 238, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h4 {
+      font-size: 1.5vw;
+      line-height: 1.65vw;
+      letter-spacing: -0.045vw;
+      font-kerning: normal; } }
+
+/* line 243, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h5 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 243, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h5 {
+      font-size: 3vw;
+      line-height: 3.3vw;
+      letter-spacing: -0.09vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 243, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h5 {
+      font-size: 2vw;
+      line-height: 2.2vw;
+      letter-spacing: -0.06vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 243, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h5 {
+      font-size: 1.3vw;
+      line-height: 1.43vw;
+      letter-spacing: -0.039vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 243, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h5 {
+      font-size: 1vw;
+      line-height: 1.1vw;
+      letter-spacing: -0.03vw;
+      font-kerning: normal; } }
+
+/* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+h6 {
+  font-weight: 700; }
+  @media (max-width: 767px) {
+    /* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h6 {
+      font-size: 1.5vw;
+      line-height: 1.65vw;
+      letter-spacing: -0.045vw;
+      font-kerning: normal; } }
+  @media (max-width: 767px) and (orientation: landscape) {
+    /* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h6 {
+      font-size: 1vw;
+      line-height: 1.1vw;
+      letter-spacing: -0.03vw;
+      font-kerning: normal; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h6 {
+      font-size: 0.65vw;
+      line-height: 0.715vw;
+      letter-spacing: -0.0195vw;
+      font-kerning: normal; } }
+  @media (min-width: 1025px) {
+    /* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    h6 {
+      font-size: 0.5vw;
+      line-height: 0.55vw;
+      letter-spacing: -0.015vw;
+      font-kerning: normal; } }
+
+/* --------------------- ICONS AND BUTTONS ---------------------- */
+/* line 267, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button {
+  transition: border 0.2s ease; }
+
+/* line 273, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-svg svg, .button-small svg, .button svg, #article.two-cols-simple-container .two-cols-article #post .button svg, .button-medium svg, .button-big svg {
+  fill: currentColor; }
+
+/* line 280, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-svg .download svg, .button-small .download svg, .button .download svg, #article.two-cols-simple-container .two-cols-article #post .button .download svg, .button-medium .download svg, .button-big .download svg {
+  margin-right: 10px;
+  padding-bottom: 3px; }
+
+/* line 287, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button {
+  transition: border 0.5s;
+  align-content: space-between;
+  align-items: center;
+  display: inline-flex !important; }
+
+/* line 300, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-medium {
+  transition: border 0.5s;
+  display: inline-flex !important; }
+
+/* line 311, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-big {
+  transition: border 0.5s;
+  display: inline-flex !important; }
+
+/* line 322, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-outline, .button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button, .button-medium, .button-big {
+  border: 2px solid #49C1AC; }
+
+/* line 326, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-outline:hover, .button-small:hover, .button:hover, #article.two-cols-simple-container .two-cols-article #post .button:hover, .button-medium:hover, .button-big:hover {
+  border: 2px solid #37a08e; }
+
+/* line 330, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-outline-invert {
+  border: 2px solid rgba(255, 255, 255, 0.7); }
+
+/* line 334, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-outline-invert:hover {
+  border: 2px solid white; }
+
+/* line 338, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-fill1 {
+  border: none !important;
+  background-color: rgba(145, 201, 65, 0.9) !important; }
+
+/* line 343, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-fill1:hover {
+  border: none !important;
+  background-color: #91c941 !important; }
+
+/* line 348, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-invisible, #header .top-navigation-left .button-small, #header .top-navigation-left .button, #header .top-navigation-left #article.two-cols-simple-container .two-cols-article #post .button, #article.two-cols-simple-container .two-cols-article #post #header .top-navigation-left .button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  transition: background-color 0.2s ease; }
+
+/* line 355, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-invisible:hover, #header .top-navigation-left .button-small:hover, #header .top-navigation-left .button:hover, #header .top-navigation-left #article.two-cols-simple-container .two-cols-article #post .button:hover, #article.two-cols-simple-container .two-cols-article #post #header .top-navigation-left .button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none; }
+
+/* line 361, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-small-size, .button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button {
+  border-radius: 20px;
+  height: 40px !important;
+  width: auto !important;
+  max-width: none !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important; }
+
+/* line 371, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-medium-size, .button-medium {
+  border-radius: 30px;
+  height: 60px !important;
+  width: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important; }
+
+/* line 379, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.button-big-size, .button-big {
+  border-radius: 40px;
+  height: 80px !important;
+  width: auto !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important; }
+
+/* line 387, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.align-right {
+  float: right;
+  padding-left: 1em; }
+
+/* line 392, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+.align-left {
+  float: left;
+  padding-right: 1em; }
+
+/* -------------------------------------------------------------- */
+/* line 400, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+hr {
+  width: 100%;
+  max-width: 80vw;
+  height: 2px;
+  border: none;
+  background: #5bbaa8;
+  background: linear-gradient(to right, #5bbaa8 0%, #6069c9 47%, #a849a3 100%); }
+  @media (max-width: 767px) {
+    /* line 400, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    hr {
+      max-width: 100%; } }
+
+/* --------------------------- BLOCKS --------------------------- */
+/* line 417, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#header .top-navigation,
+#header hr {
+  margin-top: 1.2em; }
+
+@media all and (orientation: portrait) {
+  /* line 421, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #header .top-navigation-left svg {
+    width: 40vw; } }
+
+@media all and (orientation: landscape) {
+  /* line 421, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #header .top-navigation-left svg {
+    width: 20vw; } }
+
+@media (max-width: 767px) {
+  /* line 434, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #header .top-navigation-left .button-small *, #header .top-navigation-left .button *, #header .top-navigation-left #article.two-cols-simple-container .two-cols-article #post .button *, #article.two-cols-simple-container .two-cols-article #post #header .top-navigation-left .button * {
+    padding: 0;
+    margin: 0; } }
+
+@media (max-width: 767px) {
+  /* line 441, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #header .top-navigation-left * {
+    padding: 0;
+    margin: 0; } }
+
+/* line 448, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#header .top-navigation-right svg {
+  height: 20px; }
+
+/* line 452, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#header .top-navigation-right .download svg {
+  margin-right: 10px;
+  padding-bottom: 3px; }
+
+/* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#header a {
+  padding-right: 2rem; }
+
+/* line 463, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#footer {
+  background-color: #532F5B; }
+  /* line 465, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #footer a {
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.7); }
+  /* line 469, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #footer a:hover {
+    color: white; }
+
+/* line 481, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#welcome .hero {
+  padding-top: 3em; }
+  @media (min-width: 768px) {
+    /* line 481, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero {
+      height: 65vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 481, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero {
+      height: 32.5vh; } }
+  @media (max-width: 767px) {
+    /* line 481, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero {
+      height: auto; } }
+  @media (min-width: 480px) and (max-width: 1024px) {
+    /* line 481, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero {
+      padding: 0; }
+      /* line 486, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .unslider-arrow.next {
+        display: none; }
+      /* line 489, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .unslider-arrow.prev {
+        display: none; } }
+  /* line 493, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #welcome .hero .unslider-arrow {
+    display: block;
+    width: 24px;
+    height: 46px;
+    top: 50%;
+    overflow: hidden;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24.0000001 46.0000001'><path fill='none' stroke='#49C1AC' stroke-width='2' d='M1 1l21.587 21.86L1 44.723' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-size: 24px 46px;
+    text-indent: -999em;
+    opacity: .3; }
+  /* line 504, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #welcome .hero .unslider-arrow:hover {
+    opacity: .9; }
+  /* line 507, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #welcome .hero .unslider-arrow.next {
+    left: auto;
+    right: 0; }
+  /* line 511, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #welcome .hero .unslider-arrow.prev {
+    left: 0;
+    right: auto;
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+  /* line 517, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #welcome .hero .hero-banner {
+    width: 100%;
+    justify-content: space-around; }
+    @media (min-width: 768px) {
+      /* line 517, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .hero-banner {
+        height: 60vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 517, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero .hero-banner {
+      height: 30vh; } }
+    @media (max-width: 767px) {
+      /* line 517, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .hero-banner {
+        height: auto; } }
+    @media (min-width: 480px) and (max-width: 1024px) {
+      /* line 517, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .hero-banner {
+        padding: 0;
+        margin: 0;
+        padding-top: -10px;
+        border: 0px solid #000000;
+        height: auto; } }
+    /* line 528, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero .hero-banner ul li {
+      float: left;
+      display: block;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+    /* line 535, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero .hero-banner .hero-image {
+      display: block;
+      overflow: hidden;
+      border-radius: 50%; }
+      @media (max-width: 767px) {
+        /* line 535, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+        #welcome .hero .hero-banner .hero-image {
+          width: 300px;
+          height: 300px;
+          min-width: 300px;
+          min-height: 300px; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        /* line 535, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+        #welcome .hero .hero-banner .hero-image {
+          width: 400px;
+          height: 400px;
+          min-width: 400px;
+          min-height: 400px; } }
+      @media (min-width: 1025px) {
+        /* line 535, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+        #welcome .hero .hero-banner .hero-image {
+          width: 400px;
+          height: 400px;
+          min-width: 400px;
+          min-height: 400px; } }
+      /* line 560, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #welcome .hero .hero-banner .hero-image img {
+        float: right;
+        width: auto;
+        height: 100%; }
+    /* line 566, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #welcome .hero .hero-banner .hero-typo {
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      width: 30%; }
+      @media (max-width: 767px) {
+        /* line 566, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+        #welcome .hero .hero-banner .hero-typo {
+          width: 95%;
+          margin-left: 2.5%;
+          margin-right: 2.5%; } }
+
+@media (min-width: 768px) {
+  /* line 576, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container {
+    height: 90vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 576, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #trading-game.two-cols-simple-container {
+      height: 45vh; } }
+
+@media (max-width: 767px) {
+  /* line 576, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container {
+    height: auto; } }
+
+@media (min-width: 768px) {
+  /* line 579, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container .two-cols-simple,
+  #trading-game.two-cols-simple-container .two-cols-extend {
+    height: 90vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 579, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #trading-game.two-cols-simple-container .two-cols-simple,
+    #trading-game.two-cols-simple-container .two-cols-extend {
+      height: 45vh; } }
+
+@media (max-width: 767px) {
+  /* line 579, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container .two-cols-simple,
+  #trading-game.two-cols-simple-container .two-cols-extend {
+    height: auto; } }
+
+/* line 581, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#trading-game.two-cols-simple-container .two-cols-simple .two-cols-textblock,
+#trading-game.two-cols-simple-container .two-cols-extend .two-cols-textblock {
+  width: 50%; }
+  /* line 583, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container .two-cols-simple .two-cols-textblock *,
+  #trading-game.two-cols-simple-container .two-cols-extend .two-cols-textblock * {
+    text-align: center; }
+  /* line 586, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container .two-cols-simple .two-cols-textblock div,
+  #trading-game.two-cols-simple-container .two-cols-extend .two-cols-textblock div {
+    width: 70%;
+    margin: 0;
+    padding: 0; }
+
+/* line 592, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#trading-game.two-cols-simple-container .two-cols-simple .two-cols-imageblock,
+#trading-game.two-cols-simple-container .two-cols-extend .two-cols-imageblock {
+  width: 50%;
+  align-self: flex-end;
+  float: right;
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    /* line 592, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #trading-game.two-cols-simple-container .two-cols-simple .two-cols-imageblock,
+    #trading-game.two-cols-simple-container .two-cols-extend .two-cols-imageblock {
+      align-self: center; } }
+  /* line 600, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #trading-game.two-cols-simple-container .two-cols-simple .two-cols-imageblock div,
+  #trading-game.two-cols-simple-container .two-cols-extend .two-cols-imageblock div {
+    width: 90%; }
+    /* line 602, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #trading-game.two-cols-simple-container .two-cols-simple .two-cols-imageblock div img,
+    #trading-game.two-cols-simple-container .two-cols-extend .two-cols-imageblock div img {
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+      display: block;
+      -webkit-filter: drop-shadow(45px 45px 20px rgba(0, 0, 0, 0.1));
+      filter: drop-shadow(45px 45px 20px rgba(0, 0, 0, 0.1));
+      float: left;
+      max-height: 90vh; }
+
+@media (min-width: 768px) {
+  /* line 623, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container {
+    height: 90vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 623, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #learn-basics.two-cols-simple-container {
+      height: 45vh; } }
+
+@media (max-width: 767px) {
+  /* line 623, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container {
+    height: auto; } }
+
+@media (min-width: 768px) {
+  /* line 626, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container .two-cols-simple,
+  #learn-basics.two-cols-simple-container .two-cols-extend {
+    height: 90vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 626, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #learn-basics.two-cols-simple-container .two-cols-simple,
+    #learn-basics.two-cols-simple-container .two-cols-extend {
+      height: 45vh; } }
+
+@media (max-width: 767px) {
+  /* line 626, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container .two-cols-simple,
+  #learn-basics.two-cols-simple-container .two-cols-extend {
+    height: auto; } }
+
+/* line 628, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#learn-basics.two-cols-simple-container .two-cols-simple .two-cols-textblock,
+#learn-basics.two-cols-simple-container .two-cols-extend .two-cols-textblock {
+  width: 50%; }
+  /* line 630, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container .two-cols-simple .two-cols-textblock *,
+  #learn-basics.two-cols-simple-container .two-cols-extend .two-cols-textblock * {
+    text-align: center; }
+  /* line 633, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container .two-cols-simple .two-cols-textblock div,
+  #learn-basics.two-cols-simple-container .two-cols-extend .two-cols-textblock div {
+    width: 70%;
+    margin: 0;
+    padding: 0; }
+
+/* line 647, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#learn-basics.two-cols-simple-container .two-cols-simple .two-cols-imageblock,
+#learn-basics.two-cols-simple-container .two-cols-extend .two-cols-imageblock {
+  width: 50%;
+  align-self: flex-end;
+  float: right;
+  overflow: hidden; }
+  /* line 652, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #learn-basics.two-cols-simple-container .two-cols-simple .two-cols-imageblock div,
+  #learn-basics.two-cols-simple-container .two-cols-extend .two-cols-imageblock div {
+    width: 120%; }
+    /* line 654, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #learn-basics.two-cols-simple-container .two-cols-simple .two-cols-imageblock div img,
+    #learn-basics.two-cols-simple-container .two-cols-extend .two-cols-imageblock div img {
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+      display: block;
+      -webkit-filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, 0.2));
+      filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, 0.2));
+      float: left;
+      max-height: 90vh; }
+
+/* line 666, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+section#love-game {
+  background-color: #49C1AC;
+  background-image: url("../img/love-game-bg@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  @media (min-width: 768px) {
+    /* line 666, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game {
+      height: 90vh; } }
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    /* line 666, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game {
+      height: 45vh; } }
+  @media (max-width: 767px) {
+    /* line 666, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game {
+      height: auto; } }
+  /* line 673, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  section#love-game * {
+    text-align: center; }
+  /* line 678, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  section#love-game .overview-block p,
+  section#love-game .overview-block h2 {
+    color: #fff; }
+  /* line 681, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  section#love-game .overview-block .overview-cards {
+    padding: 1em;
+    margin: 1em; }
+    /* line 685, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game .overview-block .overview-cards .overview-card * {
+      padding: .5em; }
+  /* line 690, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  section#love-game .overview-block .overview-more {
+    width: 50%; }
+    /* line 692, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game .overview-block .overview-more a {
+      color: white;
+      border-color: white;
+      transition: color 0.2s ease;
+      transition: background-color 0.2s ease; }
+    /* line 698, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game .overview-block .overview-more a:hover {
+      opacity: .8; }
+    /* line 701, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game .overview-block .overview-more a.download:hover {
+      color: #49C1AC;
+      background-color: white;
+      opacity: 1; }
+    /* line 706, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    section#love-game .overview-block .overview-more .download {
+      width: 500px; }
+      /* line 708, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      section#love-game .overview-block .overview-more .download * {
+        padding: 0;
+        padding-left: .2em;
+        padding-right: .3em;
+        margin: 0; }
+      /* line 714, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      section#love-game .overview-block .overview-more .download svg {
+        height: 30px; }
+
+/* line 722, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#up-to-date {
+  margin: 0;
+  background-color: black; }
+  /* line 726, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #up-to-date h4,
+  #up-to-date p,
+  #up-to-date a {
+    color: white; }
+  /* line 729, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #up-to-date a {
+    border-color: rgba(145, 201, 65, 0.5); }
+  /* line 732, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #up-to-date a:hover {
+    border-color: #91c941; }
+  /* line 740, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #up-to-date .two-cols-social .two-cols-youtube,
+  #up-to-date .two-cols-social .two-cols-twitter {
+    padding: 1.25%; }
+
+/* line 747, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+#article.two-cols-simple-container {
+  padding-top: 2.5%; }
+  /* line 758, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #article.two-cols-simple-container .two-cols-article #post {
+    text-align: center;
+    width: 48vw;
+    padding-top: 1em; }
+    @media (max-width: 767px) {
+      /* line 758, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #article.two-cols-simple-container .two-cols-article #post {
+        width: 100%;
+        padding: 0; } }
+    /* line 780, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post strong,
+    #article.two-cols-simple-container .two-cols-article #post b,
+    #article.two-cols-simple-container .two-cols-article #post p,
+    #article.two-cols-simple-container .two-cols-article #post a,
+    #article.two-cols-simple-container .two-cols-article #post h1,
+    #article.two-cols-simple-container .two-cols-article #post h2,
+    #article.two-cols-simple-container .two-cols-article #post h3,
+    #article.two-cols-simple-container .two-cols-article #post h4,
+    #article.two-cols-simple-container .two-cols-article #post h5,
+    #article.two-cols-simple-container .two-cols-article #post h6,
+    #article.two-cols-simple-container .two-cols-article #post ul,
+    #article.two-cols-simple-container .two-cols-article #post li {
+      text-align: left;
+      padding-top: 2%; }
+      @media (max-width: 767px) {
+        /* line 780, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+        #article.two-cols-simple-container .two-cols-article #post strong,
+        #article.two-cols-simple-container .two-cols-article #post b,
+        #article.two-cols-simple-container .two-cols-article #post p,
+        #article.two-cols-simple-container .two-cols-article #post a,
+        #article.two-cols-simple-container .two-cols-article #post h1,
+        #article.two-cols-simple-container .two-cols-article #post h2,
+        #article.two-cols-simple-container .two-cols-article #post h3,
+        #article.two-cols-simple-container .two-cols-article #post h4,
+        #article.two-cols-simple-container .two-cols-article #post h5,
+        #article.two-cols-simple-container .two-cols-article #post h6,
+        #article.two-cols-simple-container .two-cols-article #post ul,
+        #article.two-cols-simple-container .two-cols-article #post li {
+          padding-left: 5%;
+          padding-right: 5%; } }
+    /* line 788, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post p {
+      font-weight: 400; }
+      /* line 798, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #article.two-cols-simple-container .two-cols-article #post p b,
+      #article.two-cols-simple-container .two-cols-article #post p a,
+      #article.two-cols-simple-container .two-cols-article #post p h1,
+      #article.two-cols-simple-container .two-cols-article #post p h2,
+      #article.two-cols-simple-container .two-cols-article #post p h3,
+      #article.two-cols-simple-container .two-cols-article #post p h4,
+      #article.two-cols-simple-container .two-cols-article #post p h5,
+      #article.two-cols-simple-container .two-cols-article #post p h6,
+      #article.two-cols-simple-container .two-cols-article #post p i,
+      #article.two-cols-simple-container .two-cols-article #post p strong {
+        padding: 0; }
+    /* line 807, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post a,
+    #article.two-cols-simple-container .two-cols-article #post h1,
+    #article.two-cols-simple-container .two-cols-article #post p,
+    #article.two-cols-simple-container .two-cols-article #post ul,
+    #article.two-cols-simple-container .two-cols-article #post li {
+      padding-top: 0;
+      margin: 0;
+      padding-bottom: 2.5%; }
+    /* line 812, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post h2 {
+      text-align: center;
+      border-top: 1px solid #49C1AC; }
+    /* line 816, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+    /* line 821, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post li:before {
+      content: "\2022 ";
+      color: #0C937F;
+      margin-right: 2%; }
+    /* line 826, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post img {
+      margin: 0 auto;
+      margin-bottom: 1em;
+      border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+      -webkit-border-radius: 20px 20px 20px 20px;
+      border: 0px solid #000000;
+      display: inline-block;
+      -webkit-filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.2));
+      filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.2)); }
+    /* line 838, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post img::after {
+      clear: both; }
+    /* line 841, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post .button {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 0; }
+    /* line 847, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left; }
+    /* line 853, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post tr,
+    #article.two-cols-simple-container .two-cols-article #post td {
+      border: 1px solid gainsboro;
+      padding: 1%; }
+    /* line 857, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post tr:nth-child(even) {
+      background-color: #f9f9f9; }
+    /* line 860, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #post thead {
+      background-color: #0C937F;
+      border: none;
+      color: white;
+      font-weight: 700; }
+      /* line 866, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #article.two-cols-simple-container .two-cols-article #post thead tr,
+      #article.two-cols-simple-container .two-cols-article #post thead td {
+        border: none; }
+  /* line 871, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #article.two-cols-simple-container .two-cols-article #submenu-container {
+    justify-content: flex-start; }
+    @media (max-width: 767px) {
+      /* line 871, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+      #article.two-cols-simple-container .two-cols-article #submenu-container {
+        width: 100%; } }
+    /* line 876, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #submenu-container b {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      display: block; }
+    /* line 881, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+    #article.two-cols-simple-container .two-cols-article #submenu-container a {
+      display: block;
+      width: 24vw;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      margin-bottom: .5em;
+      padding-bottom: .5em; }
+  /* line 889, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/style.scss */
+  #article.two-cols-simple-container .two-cols-article #spacer {
+    width: 24vw; }
+
+/* -------------------------------------------------------------- */
+/* --------------------------- GLOBAL --------------------------- */
+/* line 91, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+html {
+  font-size: 100%; }
+
+/* line 96, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+body {
+  padding: 0;
+  margin: 0; }
+
+/* line 104, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.row, .button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button, .button-medium, .button-big, .top-navigation, .top-navigation .top-navigation-left, .top-navigation .top-navigation-left a, .top-navigation .top-navigation-right, .top-navigation .top-navigation-right a, .hero-container .hero, .hero-container .hero .hero-banner, .overview-container .overview-block .overview-cards, .two-cols-social-container .two-cols-social-column .two-cols-social {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; }
+
+/* line 110, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.column, .hero-container .hero .hero-banner, .two-cols-simple .two-cols-youtube, .two-cols-extend .two-cols-youtube, .overview-container .overview-block, .overview-container .overview-block .overview-more, .two-cols-social-container .two-cols-social-column, .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-youtube, .two-cols-simple-container .two-cols-article .two-cols-youtube {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center; }
+
+/* line 143, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.center-center, section, .hero-container, .hero-container .hero, .two-cols-simple .two-cols-textblock, .two-cols-simple .two-cols-twitter, .two-cols-extend .two-cols-textblock, .two-cols-extend .two-cols-twitter, .two-cols-social-container .two-cols-social-column .two-cols-social, .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-twitter, .two-cols-simple-container .two-cols-article .two-cols-textblock, .two-cols-simple-container .two-cols-article .two-cols-twitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  @media (max-width: 767px) {
+    /* line 143, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .center-center, section, .hero-container, .hero-container .hero, .two-cols-simple .two-cols-textblock, .two-cols-simple .two-cols-twitter, .two-cols-extend .two-cols-textblock, .two-cols-extend .two-cols-twitter, .two-cols-social-container .two-cols-social-column .two-cols-social, .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-twitter, .two-cols-simple-container .two-cols-article .two-cols-textblock, .two-cols-simple-container .two-cols-article .two-cols-twitter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+
+/* line 175, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.max-block-height {
+  height: 90%;
+  height: 90vh; }
+
+@media (max-width: 767px) {
+  /* line 189, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .flex-1 {
+    order: 1; }
+  /* line 193, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .flex-2 {
+    order: 2; } }
+
+/* line 198, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.fix-center, .top-navigation, .hero-container .hero, .two-cols-simple, .overview-container .overview-block, .two-cols-social-container .two-cols-social-column, .footer-container .footer, .two-cols-simple-container .two-cols-article {
+  width: 80%;
+  width: 80vw;
+  margin: auto; }
+  @media (max-width: 767px) {
+    /* line 198, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .fix-center, .top-navigation, .hero-container .hero, .two-cols-simple, .overview-container .overview-block, .two-cols-social-container .two-cols-social-column, .footer-container .footer, .two-cols-simple-container .two-cols-article {
+      width: 100%; } }
+
+/* line 207, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.img-overfloat {
+  display: block;
+  margin: auto;
+  position: absolute;
+  overflow: hidden; }
+
+/* line 217, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.max-image-height {
+  height: 100%;
+  width: auto; }
+
+/* line 224, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.max-image-width {
+  width: 100%;
+  height: auto; }
+
+/* line 231, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.flex-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  @media (max-width: 767px) {
+    /* line 231, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .flex-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+
+/* line 246, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.image-responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  display: inline-block; }
+
+/* line 254, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.image-auto, #article.two-cols-simple-container .two-cols-article #post img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 50vh;
+  display: inline-block; }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BLOCKS  */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - TOP NAVIGATION */
+/* line 272, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.top-navigation {
+  justify-content: space-between;
+  height: 8vh; }
+  /* line 282, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .top-navigation .top-navigation-left {
+    justify-content: space-between; }
+    /* line 290, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .top-navigation .top-navigation-left img {
+      max-width: 20vw;
+      max-height: 4vh;
+      padding: 0;
+      margin: 0; }
+    /* line 296, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .top-navigation .top-navigation-left a {
+      margin-right: 1rem; }
+    @media (max-width: 767px) {
+      /* line 282, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .top-navigation .top-navigation-left {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%; } }
+  /* line 305, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .top-navigation .top-navigation-right {
+    justify-content: space-between; }
+    /* line 313, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .top-navigation .top-navigation-right img {
+      max-width: 100px;
+      max-height: 100px; }
+    /* line 318, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .top-navigation .top-navigation-right a {
+      margin-left: 1rem; }
+    @media (max-width: 767px) {
+      /* line 305, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .top-navigation .top-navigation-right {
+        display: none; } }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - WELCOME HERO */
+/* line 357, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.hero-container .hero .hero-typo {
+  text-align: center; }
+
+@media (max-width: 767px) {
+  /* line 345, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .hero-container .hero {
+    justify-content: flex-start;
+    height: 10%; } }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - IMAGE + TEXT 2 coloums HERO */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - IMAGE + TEXT 2 coloums simple */
+/* line 498, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.two-cols-simple {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  @media (max-width: 767px) {
+    /* line 498, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+  /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple .two-cols-textblock {
+    text-align: left; }
+    /* line 429, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple .two-cols-textblock div {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%; }
+    @media (max-width: 767px) {
+      /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-simple .two-cols-textblock {
+        width: 100% !important;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 437, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple .two-cols-textblock * {
+          width: 100%; }
+        /* line 447, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple .two-cols-textblock div {
+          width: 100%; } }
+  /* line 453, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple .two-cols-imageblock img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; }
+  /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple .two-cols-youtube {
+    width: 70%;
+    align-self: flex-start; }
+    /* line 463, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple .two-cols-youtube .yt-videowrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      width: 100%;
+      height: 0;
+      margin-left: 5%;
+      margin-right: 5%; }
+    /* line 472, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple .two-cols-youtube .yt-videowrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    @media (max-width: 767px) {
+      /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-simple .two-cols-youtube {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 486, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple .two-cols-youtube div {
+          width: 100%; } }
+  /* line 491, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple .two-cols-twitter {
+    width: 30%;
+    align-self: flex-start; }
+
+/* line 502, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.two-cols-extend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  @media (max-width: 767px) {
+    /* line 502, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-extend {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+  /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-extend .two-cols-textblock {
+    text-align: left; }
+    /* line 429, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-extend .two-cols-textblock div {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%; }
+    @media (max-width: 767px) {
+      /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-extend .two-cols-textblock {
+        width: 100% !important;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 437, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-extend .two-cols-textblock * {
+          width: 100%; }
+        /* line 447, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-extend .two-cols-textblock div {
+          width: 100%; } }
+  /* line 453, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-extend .two-cols-imageblock img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; }
+  /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-extend .two-cols-youtube {
+    width: 70%;
+    align-self: flex-start; }
+    /* line 463, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-extend .two-cols-youtube .yt-videowrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      width: 100%;
+      height: 0;
+      margin-left: 5%;
+      margin-right: 5%; }
+    /* line 472, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-extend .two-cols-youtube .yt-videowrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    @media (max-width: 767px) {
+      /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-extend .two-cols-youtube {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 486, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-extend .two-cols-youtube div {
+          width: 100%; } }
+  /* line 491, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-extend .two-cols-twitter {
+    width: 30%;
+    align-self: flex-start; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - OVERVIEW (3 horizontal blocks) */
+/* line 510, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.overview-container .overview-block {
+  justify-content: space-between; }
+  /* line 514, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .overview-container .overview-block .overview-cards {
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline; }
+    @media (max-width: 767px) {
+      /* line 514, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .overview-container .overview-block .overview-cards {
+        flex-flow: column nowrap; } }
+    /* line 522, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .overview-container .overview-block .overview-cards .overview-card {
+      width: 30%;
+      height: 100%; }
+      /* line 525, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .overview-container .overview-block .overview-cards .overview-card * {
+        margin: 0;
+        padding: 0; }
+      @media (max-width: 767px) {
+        /* line 522, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .overview-container .overview-block .overview-cards .overview-card {
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 5%; } }
+      /* line 536, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .overview-container .overview-block .overview-cards .overview-card .overview-thumbnail {
+        max-width: 120px;
+        max-height: 120px;
+        min-width: 120px;
+        min-height: 120px; }
+  /* line 547, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .overview-container .overview-block .overview-more * {
+    margin: 2.5%; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - YOUTUBE + TWITTER 2 coloums */
+@media only screen and (max-width: 767px) {
+  /* line 558, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .yt-block {
+    display: block;
+    width: 100%; } }
+
+/* line 565, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.two-cols-social-container .two-cols-social-column {
+  text-align: center; }
+  @media (max-width: 767px) {
+    /* line 572, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-social-container .two-cols-social-column .two-cols-social {
+      flex-flow: column nowrap; } }
+  /* line 581, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-youtube {
+    width: 70%;
+    align-self: flex-start; }
+    /* line 586, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-youtube .yt-videowrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      width: 100%;
+      height: 0;
+      margin-left: 5%;
+      margin-right: 5%; }
+    /* line 595, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-youtube .yt-videowrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    @media (max-width: 767px) {
+      /* line 581, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-youtube {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; } }
+  /* line 610, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-twitter {
+    width: 30%;
+    height: 100%;
+    align-self: flex-start; }
+    @media (max-width: 767px) {
+      /* line 610, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-social-container .two-cols-social-column .two-cols-social .two-cols-twitter {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; } }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - FOOTER */
+/* line 630, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.footer-container {
+  width: 100%; }
+  /* line 632, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .footer-container .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    /* line 641, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .footer-container .footer #footer-left {
+      /*    padding-left: 5%;*/
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between; }
+    /* line 647, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .footer-container .footer #footer-right {
+      /*    padding-right: 5%;*/
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between; }
+    /* line 653, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .footer-container .footer #footer img {
+      max-width: 50px;
+      max-height: 50px; }
+    /* line 657, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .footer-container .footer #footer-left a {
+      margin-right: 20px; }
+    /* line 660, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .footer-container .footer #footer-right a {
+      margin-left: 20px; }
+    @media only screen and (max-width: 767px) {
+      /* line 664, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .footer-container .footer #footer-right {
+        /*        padding-right: 5%;*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between; } }
+    @media only screen and (max-width: 767px) {
+      /* line 672, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .footer-container .footer #submenu {
+        padding-bottom: 3rem; } }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ARTICLE */
+/* line 683, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+.two-cols-simple-container .two-cols-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start; }
+  @media (max-width: 767px) {
+    /* line 683, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple-container .two-cols-article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+  /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple-container .two-cols-article .two-cols-textblock {
+    text-align: left; }
+    /* line 429, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple-container .two-cols-article .two-cols-textblock div {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%; }
+    @media (max-width: 767px) {
+      /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-simple-container .two-cols-article .two-cols-textblock {
+        width: 100% !important;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 437, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple-container .two-cols-article .two-cols-textblock * {
+          width: 100%; }
+        /* line 447, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple-container .two-cols-article .two-cols-textblock div {
+          width: 100%; } }
+  /* line 453, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple-container .two-cols-article .two-cols-imageblock img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; }
+  /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple-container .two-cols-article .two-cols-youtube {
+    width: 70%;
+    align-self: flex-start; }
+    /* line 463, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple-container .two-cols-article .two-cols-youtube .yt-videowrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      width: 100%;
+      height: 0;
+      margin-left: 5%;
+      margin-right: 5%; }
+    /* line 472, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+    .two-cols-simple-container .two-cols-article .two-cols-youtube .yt-videowrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    @media (max-width: 767px) {
+      /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+      .two-cols-simple-container .two-cols-article .two-cols-youtube {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2.5%;
+        width: 90%; }
+        /* line 486, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+        .two-cols-simple-container .two-cols-article .two-cols-youtube div {
+          width: 100%; } }
+  /* line 491, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple-container .two-cols-article .two-cols-twitter {
+    width: 30%;
+    align-self: flex-start; }
+  /* line 686, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Website/v1.7-SASS_Prepos/sass/structure.scss */
+  .two-cols-simple-container .two-cols-article .submenu a {
+    display: inline-block;
+    padding: 5%; }
+
+/*# sourceMappingURL=structure.css.map */

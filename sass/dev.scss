@@ -1,0 +1,27 @@
+div {
+    outline: 1px solid rgba(0, 125, 255, 0.2);
+//    background-color: rgba(200, 200, 200, .5)
+}
+
+p, 
+a, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    outline: 1px dotted rgba(255, 0, 255, 0.2);
+}
+
+.row {
+//    background-color: rgba(0, 255, 0, .1);
+}
+
+.column {
+//    background-color: rgba(125, 0, 255, .1);
+}
+
+img {
+    outline: 2px solid rgba(125, 255, 0, 0.2) !important;
+}

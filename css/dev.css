@@ -1,0 +1,18 @@
+div {
+  outline: 1px solid rgba(0, 125, 255, 0.2);
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  outline: 1px dotted rgba(255, 0, 255, 0.2);
+}
+
+img {
+  outline: 2px solid rgba(125, 255, 0, 0.2) !important;
+}

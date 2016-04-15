@@ -1,0 +1,457 @@
+/* -------------------------------------------------------------- */
+/* --------------------------- GLOBAL --------------------------- */
+/* line 6, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-kerning: auto; }
+
+/* line 12, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+a {
+  text-decoration: none; }
+
+/* line 16, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.text-center {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  /* line 22, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .center-center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  /* line 32, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .flex-1 {
+    order: 1; }
+  /* line 36, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .flex-2 {
+    order: 2; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 43, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-10 {
+    width: 10% !important; }
+  /* line 44, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-20 {
+    width: 20% !important; }
+  /* line 45, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-30 {
+    width: 30% !important; }
+  /* line 46, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-40 {
+    width: 40% !important; }
+  /* line 47, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-50 {
+    width: 50% !important; }
+  /* line 48, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-60 {
+    width: 60% !important; }
+  /* line 49, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-70 {
+    width: 70% !important; }
+  /* line 50, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-80 {
+    width: 80% !important; }
+  /* line 51, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-90 {
+    width: 90% !important; }
+  /* line 53, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+  /* line 58, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+  /* line 64, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .center-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 77, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .width-10, .width-20, .width-30, .width-40, .width-50, .width-60, .width-70, .width-80, .width-90 {
+    max-width: 100%; } }
+
+/* line 83, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.font-icon {
+  font-family: "fontello";
+  text-align: center;
+  margin: 2px; }
+
+/* line 89, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.flexbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 96, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.button-fix {
+  margin-bottom: 2px;
+  margin-right: 5px; }
+
+/* line 101, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.submenuitems a {
+  display: block; }
+
+/* line 105, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#submenu a {
+  display: block;
+  padding: 3%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+/* line 110, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#submenu a:hover {
+  background-color: beige; }
+
+@media only screen and (min-width: 768px) {
+  /* line 115, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  #submenu a:last-child {
+    border-bottom: none; }
+  /* line 118, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  #submenu a {
+    margin-right: 30px; } }
+
+/* line 124, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#post h1, #post h2, #post h3, #post h4, #post h5, #post h6, #post p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2%; }
+
+/* line 130, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#post img {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  position: relative;
+  margin-top: 3%;
+  margin-bottom: 3%; }
+
+/* line 141, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#submenu-selected, submenu-selected:hover {
+  background-color: azure; }
+
+/* -------------------------------------------------------------- */
+/* --------------------------- BLOCKS --------------------------- */
+/* WELCOME (main image + text + top navigation) */
+/* line 151, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  /*    justify-content: space-between;*/
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+  position: absolute;
+  z-index: 1; }
+
+/* line 162, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-subpage {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 3%; }
+
+/* line 174, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/* line 180, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-left img {
+  max-width: 160px;
+  max-height: 50px; }
+
+/* line 185, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-left a {
+  padding-right: 15px; }
+
+/* line 189, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+/* line 195, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#top-navigation-right img {
+  max-width: 50px;
+  max-height: 50px; }
+
+/* IMAGE + TEXT 2 coloums */
+@media only screen and (min-width: 768px) {
+  /* line 215, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .left {
+    position: relative;
+    overflow: hidden;
+    float: left; }
+  /* line 221, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .left img {
+    display: block;
+    height: inherit;
+    margin: auto;
+    max-width: none;
+    width: initial;
+    position: absolute;
+    right: 0; }
+  /* line 231, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .right {
+    position: relative;
+    overflow: hidden;
+    float: right; }
+  /* line 237, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .right img {
+    display: block;
+    height: inherit;
+    margin: auto;
+    max-width: none;
+    width: initial;
+    position: absolute; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 248, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .left {
+    position: relative;
+    overflow: hidden; }
+  /* line 253, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .left img {
+    max-width: 100%;
+    height: auto; }
+  /* line 258, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .right {
+    position: relative;
+    overflow: hidden; }
+  /* line 263, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .right img {
+    max-width: 100%;
+    height: auto; } }
+
+/* OVERVIEW (3 horizontal blocks) */
+@media only screen and (max-width: 767px) {
+  /* line 274, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-block {
+    display: block; }
+  /* line 278, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-card {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  /* line 286, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-card img {
+    float: left;
+    padding-right: 10px;
+    display: block;
+    padding-bottom: 3em; }
+  /* line 292, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-card h6 {
+    padding: 0;
+    margin: 0; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 299, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-block {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+  /* line 305, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-cards {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; }
+  /* line 311, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-card {
+    width: 30%;
+    text-align: center; }
+  /* line 316, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .overview-cards hr {
+    display: none; } }
+
+/* line 322, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.overview-thumbnail {
+  max-width: 120px;
+  max-height: 120px;
+  min-width: 120px;
+  min-height: 120px; }
+
+/* YOUTUBE + TWITTER 2 coloums */
+@media only screen and (max-width: 767px) {
+  /* line 335, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .yt-block {
+    display: block;
+    width: 100%; } }
+
+/* line 341, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.yt-videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  width: 100%;
+  height: 0; }
+
+/* line 347, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.yt-videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* FOOTER */
+/* line 357, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer {
+  /*    width: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 366, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer-left {
+  /*    padding-left: 5%;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+/* line 373, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer-right {
+  /*    padding-right: 5%;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+/* line 380, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer img {
+  max-width: 50px;
+  max-height: 50px; }
+
+/* line 385, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer-left a {
+  margin-right: 20px; }
+
+/* line 389, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+#footer-right a {
+  margin-left: 20px; }
+
+@media only screen and (max-width: 767px) {
+  /* line 396, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  #footer-right {
+    /*        padding-right: 5%;*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 405, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  #submenu {
+    padding-bottom: 3rem; } }
+
+/* -------------------------------------------------------------- */
+/* ----------------------- RESPONSIVENESS ----------------------- */
+@media only screen and (max-width: 767px) {
+  /* Extra Small Devices, Phones */
+  /* line 418, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .max-image {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    min-width: auto; }
+  /* line 426, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up10, .up20, .up30, .up40, .up50, .up60, .up70, .up80, .up90, .up100, .up150, .up200 {
+    margin-bottom: 0; }
+  /* line 430, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  #top-navigation-right {
+    display: none; } }
+
+@media only screen and (min-width: 768px) {
+  /* Small Devices, Tablets */
+  /* line 439, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up10, .up20, .up30, .up40, .up50, .up60, .up70, .up80, .up90, .up100, .up150, .up200 {
+    margin-bottom: 0; }
+  /* line 443, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .twitter-height {
+    height: 300px !important; }
+  /* line 448, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .max-image {
+    height: 100%;
+    min-height: 100%; } }
+
+@media only screen and (min-width: 992px) {
+  /* Medium Devices, Desktops */
+  /* line 457, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-10 {
+    margin-bottom: 10px; }
+  /* line 458, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-20 {
+    margin-bottom: 20px; }
+  /* line 459, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-30 {
+    margin-bottom: 30px; }
+  /* line 460, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-40 {
+    margin-bottom: 40px; }
+  /* line 461, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-50 {
+    margin-bottom: 50px; }
+  /* line 462, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-60 {
+    margin-bottom: 60px; }
+  /* line 463, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-70 {
+    margin-bottom: 70px; }
+  /* line 464, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-80 {
+    margin-bottom: 80px; }
+  /* line 465, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-90 {
+    margin-bottom: 90px; }
+  /* line 466, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-100 {
+    margin-bottom: 100px; }
+  /* line 467, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-150 {
+    margin-bottom: 150px; }
+  /* line 468, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .up-200 {
+    margin-bottom: 200px; }
+  /* line 470, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .twitter-height {
+    height: 300px !important; } }
+
+@media only screen and (min-width: 1200px) {
+  /* Large Devices */
+  /* line 477, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+  .twitter-height {
+    height: 400px !important; } }
+
+/* line 482, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.max-block-height, .welcome-block {
+  height: 100%;
+  height: 100vh; }
+
+/* line 487, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.half-block-height {
+  height: 50%;
+  height: 50vh; }
+
+/* line 492, /Users/marxcie/Google Drive/MakersGraphics/LABS/CASHOUT/Marketing/Landingpage/3. source/v1.3-SASS/sass/cashout-landing.scss */
+.welcome-block {
+  background-color: red; }
+
+/*# sourceMappingURL=cashout-landing.css.map */

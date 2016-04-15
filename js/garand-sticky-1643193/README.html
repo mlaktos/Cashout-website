@@ -1,0 +1,66 @@
+<h1 id="sticky">Sticky</h1>
+<p>Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.</p>
+<h2 id="sticky-in-brief">Sticky in brief</h2>
+<p>This is how it works:</p>
+<ul>
+<li>When the target element is about to be hidden, the plugin will add the class <code>className</code> to it (and to a wrapper added as its parent), set it to <code>position: fixed</code> and calculate its new <code>top</code>, based on the element&#39;s height, the page height and the <code>topSpacing</code> and <code>bottomSpacing</code> options.</li>
+<li>That&#39;s it. 
+In some cases you might need to set a fixed width to your element when it is &quot;sticked&quot;.
+But by default (<code>widthFromWrapper == true</code>) sticky updates elements&#39;s width to the wrapper&#39;s width.
+Check the <code>example-*.html</code> files for some examples.</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Include jQuery &amp; Sticky.</li>
+<li>Call Sticky.</li>
+</ul>
+<pre><code class="lang-html">&lt;script src=&quot;jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;jquery.sticky.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  $(document).ready(function(){
+    $(&quot;#sticker&quot;).sticky({topSpacing:0});
+  });
+&lt;/script&gt;
+</code></pre>
+<ul>
+<li><p>Edit your css to position the elements (check the examples in <code>example-*.html</code>).</p>
+</li>
+<li><p>To unstick an object</p>
+</li>
+</ul>
+<pre><code class="lang-html">&lt;script&gt;
+  $(&quot;#sticker&quot;).unstick();
+&lt;/script&gt;
+</code></pre>
+<h2 id="options">Options</h2>
+<ul>
+<li><code>topSpacing</code>: Pixels between the page top and the element&#39;s top.</li>
+<li><code>bottomSpacing</code>: Pixels between the page bottom and the element&#39;s bottom.</li>
+<li><code>className</code>: CSS class added to the element&#39;s wrapper when &quot;sticked&quot;.</li>
+<li><code>wrapperClassName</code>: CSS class added to the wrapper.</li>
+<li><code>getWidthFrom</code>: Selector of element referenced to set fixed width of &quot;sticky&quot; element.</li>
+<li><code>widthFromWrapper</code>: boolean determining whether width of the &quot;sticky&quot; element should be updated to match the wrapper&#39;s width. Wrapper is a placeholder for &quot;sticky&quot; element while it is fixed (out of static elements flow), and it&#39;s width depends on the context and CSS rules.</li>
+<li><code>responsiveWidth</code>: boolean determining whether widths will be recalculated on window resize (using getWidthfrom).</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li><code>sticky(options)</code>: Initializer. <code>options</code> is optional.</li>
+<li><code>sticky(&#39;update&#39;)</code>: Recalculates the element&#39;s position.</li>
+</ul>
+<h2 id="events">Events</h2>
+<ul>
+<li><code>sticky-start</code>: When the element becomes sticky.</li>
+<li><code>sticky-end</code>: When the element returns to its original location</li>
+<li><code>sticky-update</code>: When the element is sticked but position must be updated for constraints reasons</li>
+<li><code>sticky-bottom-reached</code>: When the element reached the bottom space limit</li>
+<li><code>sticky-bottom-unreached</code>: When the element unreached the bottom space limit</li>
+</ul>
+<p>To subscribe to events use jquery:</p>
+<pre><code class="lang-html">&lt;script&gt;
+  $(&#39;#sticker&#39;).on(&#39;sticky-start&#39;, function() { console.log(&quot;Started&quot;); });
+  $(&#39;#sticker&#39;).on(&#39;sticky-end&#39;, function() { console.log(&quot;Ended&quot;); });
+  $(&#39;#sticker&#39;).on(&#39;sticky-update&#39;, function() { console.log(&quot;Update&quot;); });
+  $(&#39;#sticker&#39;).on(&#39;sticky-bottom-reached&#39;, function() { console.log(&quot;Bottom reached&quot;); });
+  $(&#39;#sticker&#39;).on(&#39;sticky-bottom-unreached&#39;, function() { console.log(&quot;Bottom unreached&quot;); });
+&lt;/script&gt;
+</code></pre>
