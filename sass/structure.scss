@@ -663,11 +663,15 @@ section {
                     margin-bottom: $block-margin / 2;
                     width: 100% - $block-margin * 2;
                 }
+                
+                .button, .button-medium {
+                    margin-top: 2em;
+                }
             }
             .two-cols-twitter {
                 width: 30%;
 //                height: 100%;
-                height: 50vh;
+                    max-height: 70vh;
                 @extend .center-center;
                 align-self: flex-start;
                 //

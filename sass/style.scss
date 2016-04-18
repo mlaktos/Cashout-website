@@ -243,6 +243,9 @@ a:hover {
 path {
     transition: fill $anim-speed $anim-type;
 }
+* {
+  transition: all $anim-speed $anim-type !important;
+}
 
 $base-font-size: 1.2vw;
 $max-font-size: 3vw; // max font-size (with multiplier: 1)
@@ -326,7 +329,6 @@ h6 {
 
 .button {
     @extend .button-small;
-    transition: border $anim-speed $anim-type;
 }
 
 @mixin button-sizes($base-size) {
@@ -341,9 +343,6 @@ h6 {
     svg {
         fill: currentColor;
     }
-    svg:hover {
-        //        fill: $linkcolor-hover;
-    }
     .download {
         svg {
             margin-right: 10px;
@@ -353,9 +352,6 @@ h6 {
 }
 
 .button-small {
-    transition: border .5s;
-    //    display: block;
-    //    @extend .center-center !optional;       
     @extend .row;
     align-content: space-between;
     align-items: center;
@@ -366,9 +362,6 @@ h6 {
 }
 
 .button-medium {
-    transition: border .5s;
-    //    display: block;
-    //    @extend .center-center !optional;        
     @extend .row;
     display: inline-flex !important;
     @extend .button-outline;
@@ -377,9 +370,6 @@ h6 {
 }
 
 .button-big {
-    transition: border .5s;
-    //    display: block;
-    //    @extend .center-center !optional;
     @extend .row;
     display: inline-flex !important;
     @extend .button-outline;
@@ -404,19 +394,12 @@ h6 {
     border: $button-border-weight solid $light-link-color-hover;
 }
 
-.button-fill1 {}
-
-.button-fill1:hover {}
-
 .button-invisible {
-    //    border: $button-border-weight solid rgba(0,0,0,0);
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    transition: background-color $anim-speed $anim-type;
 }
 
 .button-invisible:hover {
-    //    border: $button-border-weight solid $medium-grey;
     background-color: rgba(255, 255, 255, .6);
     border: none;
 }
@@ -425,7 +408,21 @@ button-small-size {
     @extend button-sizes($base-button-size);
 }
 
-
+.button-fill-green {
+    &:hover {
+        background-color: $linkcolor;
+        border: $button-border-weight solid $linkcolor;
+        color: white;
+    }
+}
+.button-fill-white {
+    &:hover {
+        background-color: white;
+        border: $button-border-weight solid white;
+        color: black !important;
+        fill: black !important;
+    }
+}
 /* -------------------------------------------------------------- */
 
 hr {
@@ -439,20 +436,6 @@ hr {
         max-width: 100%;
     }
 }
-
-//.hr-border {
-//    border-bottom: $button-border-weight solid;
-//    border-color: #5bbaa8;
-//    -webkit-border-image: -webkit-linear-gradient(to right, #5bbaa8 0%, #6069c9 47%, #a849a3 100%);
-//    -moz-border-image: -moz-linear-gradient(to right, #5bbaa8 0%, #6069c9 47%, #a849a3 100%);
-//    -o-border-image: -o-linear-gradient(to right, #5bbaa8 0%, #6069c9 47%, #a849a3 100%);
-//    border-image: linear-gradient(to right, #5bbaa8 0%, #6069c9 47%, #a849a3 100%);
-//    width: 100%;
-//    max-width: $fix-block-width;
-//    @include mobile {
-//        max-width: 100%;
-//    }
-//}
 
 /* --------------------------- BLOCKS --------------------------- */
 
@@ -479,7 +462,6 @@ hr {
                 }
             }
         }
-//        @include mobile {
         @media screen and (max-width: 768px) {
             * {
                 padding: 0 !important;
@@ -488,18 +470,35 @@ hr {
         }
     }
     .top-navigation-right {
+        .twitter, .facebook {
+            @extend .center-center;
+            max-width: 2em !important;
+            max-height: 2em !important;
+            min-width: 2em !important;
+            min-height: 2em !important;
+            width: 2em !important;
+            height: 2em !important;
+            padding: 0 !important;
+            border-radius: 50% !important;
+        }
         svg {
-            @include portrait {
-                height: 1vh;
-            }
-            @include landscape {
-                height: 2vh;
-            }
+            max-height: 1em;
+            max-width: 1em;
+//            @include portrait {
+//                height: 1vh;
+//            }
+//            @include landscape {
+//                height: 2vh;
+//            }
         }
         .download {
+            border-radius: 20px;
+            padding-left: .5em !important;
             svg {
                 margin-right: 10px;
                 padding-bottom: 3px;
+                min-width: 1.2em !important;
+                min-height: 1.2em !important;
             }
         }
     }
@@ -520,7 +519,11 @@ hr {
         color: $light-link-color-hover;
     }
     #footer-left {
-        .twitter, .facebook {
+        svg {
+            max-height: 1em;
+            max-width: 1em;
+        }
+        .twitter, .facebook, .apple {
             @extend .center-center;
             max-width: 2em !important;
             max-height: 2em !important;
@@ -530,67 +533,18 @@ hr {
             height: 2em !important;
             padding: 0 !important;
             border-radius: 50% !important;
-            img {
-                max-width: 1.2em;
-                max-height: 1.2em;
-                width: auto;
-                height: auto;
+            
+        }
+        .download {
+            border-radius: 20px;
+            padding-left: .5em !important;
+            svg {
+                margin-right: 10px;
+                padding-bottom: 3px;
+                min-width: 1.2em !important;
+                min-height: 1.2em !important;
             }
         }
-        //        a {
-        //            color: white;
-        //            border-color: white;
-        //            transition: color $anim-speed $anim-type;
-        //            transition: background-color $anim-speed $anim-type;
-        //        }
-        //        a:hover {
-        //            opacity: .8;
-        //        }
-        //        a.download:hover {
-        //            color: $linkcolor;
-        //            background-color: white;
-        //            opacity: 1;
-        //        }
-        //        .download {
-        //            * {
-        //                padding: 0;
-        //                padding-left: .2em;
-        //                padding-right: .3em;
-        //                margin: 0;
-        //            }
-        //            svg {
-        //                height: 30px;
-        //            }
-        //        }
-//        .button {
-//            @extend .button-svg;
-//        }
-//        svg {
-//            @include portrait {
-//                height: 1vh;
-//            }
-//            @include landscape {
-//                height: 2vh;
-//            }
-//        }
-        //        .button-small {
-        //            @extend .button-invisible;
-        //            @include mobile {
-        //                * {
-        //                    padding: 0;
-        //                    margin: 0;
-        //                }
-        //            }
-        //        }
-        //        @include mobile {
-        //            * {
-        //                padding: 0;
-        //                margin: 0;
-        //            }
-        //        }
-    }
-    #footer-right {
-        //        margin-right: $block-margin;
     }
 }
 
@@ -605,10 +559,7 @@ hr {
             }
         }
         .unslider {
-                        overflow: hidden;
-            //            * div {
-            //                height: 100%;
-            //            }
+            overflow: hidden;
         }
         .unslider-arrow {
             display: block;
@@ -636,7 +587,6 @@ hr {
         .hero-banner {
             @include responsive-width(100%);
             @include maxheight(60vh);
-            //            justify-content: space-around;
             @include mobile-and-tablet {
                 padding: 0;
                 margin: 0;
@@ -689,41 +639,6 @@ hr {
     }
 }
 
-//#trading-game.two-cols-simple-container {
-//    @include maxheight();
-//    .two-cols-simple,
-//    .two-cols-extend {
-//        .two-cols-textblock {
-//            @include responsive-width(50%);
-//            * {
-//                text-align: center;
-//            }
-//            div {
-//                @include responsive-width(70%); 
-//                margin: 0;
-//                padding: 0;
-//            }
-//        }
-//        .two-cols-imageblock {
-//            @include responsive-width(50%) align-self: flex-end;
-//            float: right;
-//            overflow: hidden;
-//            @include mobile {
-//                align-self: center;
-//            }
-//            div {
-//                @include responsive-width(90%); 
-//                img {
-//                    @include image-responsive(90%);
-//                    -webkit-filter: drop-shadow(45px 45px 20px rgba(0, 0, 0, .1));
-//                    filter: drop-shadow(45px 45px 20px rgba(0, 0, 0, .1));
-//                    float: left;
-//                    max-height: $max-block-height;
-//                }
-//            }
-//        }
-//    }
-//}
 #trading-game.two-cols-simple-container {
     @include maxheight;
     .two-cols-simple,
@@ -739,14 +654,6 @@ hr {
                 margin: 0;
                 padding: 0;
             }
-            //        background-image: 
-            //        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 565 338'><g fill='none'><path d='M-238 62.5L-238-129.5C-238-151-220.5-168.5-199-168.5L243-168.5C264.5-168.5 282-151 282-129.5L282 129.5C282 151 264.5 168.5 243 168.5L-199 168.5C-220.5 168.5-238 151-238 129.5L-238 111.4 -276.8 111.4C-282.4 111.4-283.7 108.2-279.8 104.3L-238 62.5Z' transform='translate(282.50413 169)scale(-1 1)' style='opacity:0.3;stroke:#49C1AC'/></g></svg>");
-            //        background-size: 100% 100%;
-            //        background-repeat: no-repeat;
-            //        transform:scaleX(-1);
-            //        * { 
-            //            transform:scaleX(-1);
-            //        }
         }
         .two-cols-imageblock {
             @include responsive-width(50%,
@@ -766,7 +673,6 @@ hr {
                 bottom: 0;
                 z-index: -1;
                 max-width: 70%;
-//                overflow: hidden;
                 img {
                     @include image-responsive(90%);
                     filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, .2));
@@ -889,7 +795,6 @@ section#love-game {
 }
 
 section#brand-assets {
-//    @include maxheight;
     background-image: url("../img/love-game-bg@2x.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -938,37 +843,36 @@ section#brand-assets {
     a {
         color: white;
     }
-    a {
-        border-color: rgba(145, 201, 65, .5);
-    }
-    a:hover {
-        border-color: rgba(145, 201, 65, 1);
-    }
     h3 {
         color: white;
     }
+    svg {
+            max-height: 1em;
+            max-width: 1em;
+        }
+        .download {
+//            border-radius: 20px;
+//            padding-left: .5em !important;
+            svg {
+                margin-right: 10px;
+                padding-bottom: 3px;
+                min-width: 1.2em !important;
+                min-height: 1.2em !important;
+            }
+        }
     .two-cols-social {
         .two-cols-youtube,
         .two-cols-twitter {
             padding: $block-margin / 4;
             filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, .2));
-//            overflow: hidden;
         }
     }
     background-color: black;
 }
 
 #article.two-cols-simple-container {
-    //    background-color: $medium-grey;
     padding-top: $block-margin / 2;
     .two-cols-article {
-        //    padding: $block-margin / 4;
-        //        padding-left: $block-margin / 4;
-        //        padding: 0;
-        //        background-color: #f9f9f9;
-        //        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-        //        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-        //        box- 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
         #post {
             @include responsive-width(($fix-block-width / 10) * 7);
             padding-top: 1em;
@@ -1032,7 +936,6 @@ section#brand-assets {
                 }
             }
             img {
-//                @extend .image-auto !optional;
                 @include responsive-width(100%);
                 max-height: auto;
                 margin: 0 auto;
