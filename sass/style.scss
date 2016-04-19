@@ -233,19 +233,28 @@ a {
     text-decoration: none;
     border-color: $linkcolor;
     color: $linkcolor;
-    transition: color $anim-speed $anim-type;
+//    transition: color $anim-speed $anim-type;
 }
 
 a:hover {
     color: $linkcolor-hover;
 }
 
-path {
-    transition: fill $anim-speed $anim-type;
+//path {
+//    transition: fill $anim-speed $anim-type;
+//}
+.button, .button-small, .button-medium, .button-big {
+  transition: all $anim-speed $anim-type;
+//    transition-delay: 0;
+    
+//	transition: fill .1s linear;
+//	transition: background-color .3s linear;
+//	transition: border-color .3s linear;
+//	transition: outline-color .3s linear;
+//	transition: all .3s linear;
 }
-* {
-  transition: all $anim-speed $anim-type !important;
-}
+
+
 
 $base-font-size: 1.2vw;
 $max-font-size: 3vw; // max font-size (with multiplier: 1)
@@ -332,8 +341,12 @@ h6 {
 }
 
 @mixin button-sizes($base-size) {
+    word-wrap: normal;
+    word-spacing: normal;
+    word-break: keep-all;
     border-radius: $base-size/2;
     height: $base-size !important;
+    max-height: $base-size !important;
     width: auto !important;
     padding-left: $base-size/2 !important;
     padding-right: $base-size/2 !important;
@@ -343,11 +356,20 @@ h6 {
     svg {
         fill: currentColor;
     }
-    .download {
-        svg {
-            margin-right: 10px;
-            padding-bottom: 3px;
-        }
+}
+
+.download {
+    * {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    svg {
+        margin-right: 1em !important;
+        padding-bottom: 3px !important;
+        min-width: 1.2em !important;
+        min-height: 1.2em !important;
+        max-width: 1.2em !important;
+        max-height: 1.2em !important;
     }
 }
 
@@ -491,16 +513,6 @@ hr {
 //                height: 2vh;
 //            }
         }
-        .download {
-            border-radius: 20px;
-            padding-left: .5em !important;
-            svg {
-                margin-right: 10px;
-                padding-bottom: 3px;
-                min-width: 1.2em !important;
-                min-height: 1.2em !important;
-            }
-        }
     }
     a {
         padding-right: 2rem
@@ -534,16 +546,6 @@ hr {
             padding: 0 !important;
             border-radius: 50% !important;
             
-        }
-        .download {
-            border-radius: 20px;
-            padding-left: .5em !important;
-            svg {
-                margin-right: 10px;
-                padding-bottom: 3px;
-                min-width: 1.2em !important;
-                min-height: 1.2em !important;
-            }
         }
     }
 }
@@ -676,7 +678,7 @@ hr {
                 img {
                     @include image-responsive(90%);
                     filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, .2));
-                    float: right;
+                    float: left;
                     max-height: $max-block-height;
                 }
                 @include mobile {
@@ -768,8 +770,8 @@ section#love-game {
             a {
                 color: white;
                 border-color: white;
-                transition: color $anim-speed $anim-type;
-                transition: background-color $anim-speed $anim-type;
+//                transition: color $anim-speed $anim-type;
+//                transition: background-color $anim-speed $anim-type;
             }
             a:hover {
                 opacity: .8;
@@ -779,17 +781,17 @@ section#love-game {
                 background-color: white;
                 opacity: 1;
             }
-            .download {
-                * {
-                    padding: 0;
-                    padding-left: .2em;
-                    padding-right: .3em;
-                    margin: 0;
-                }
-                svg {
-                    height: 30px;
-                }
-            }
+//            .download {
+//                * {
+//                    padding: 0;
+//                    padding-left: .2em;
+//                    padding-right: .3em;
+//                    margin: 0;
+//                }
+//                svg {
+//                    height: 30px;
+//                }
+//            }
         }
     }
 }

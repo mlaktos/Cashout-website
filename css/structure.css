@@ -16,19 +16,14 @@ a {
   text-decoration: none;
   border-color: #49C1AC;
   color: #49C1AC;
-  transition: color 0.2s ease;
 }
 
 a:hover {
   color: #37a08e;
 }
 
-path {
-  transition: fill 0.2s ease;
-}
-
-* {
-  transition: all 0.2s ease !important;
+.button, .button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button, .button-medium, .button-big {
+  transition: all 0.2s ease;
 }
 
 body {
@@ -344,9 +339,18 @@ h6 {
   fill: currentColor;
 }
 
-.button-svg .download svg, .button-small .download svg, .button .download svg, #article.two-cols-simple-container .two-cols-article #post .button .download svg, .button-medium .download svg, .button-big .download svg {
-  margin-right: 10px;
-  padding-bottom: 3px;
+.download * {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.download svg {
+  margin-right: 1em !important;
+  padding-bottom: 3px !important;
+  min-width: 1.2em !important;
+  min-height: 1.2em !important;
+  max-width: 1.2em !important;
+  max-height: 1.2em !important;
 }
 
 .button-small, .button, #article.two-cols-simple-container .two-cols-article #post .button {
@@ -359,8 +363,12 @@ h6 {
   display: -webkit-inline-flex !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
+  word-wrap: normal;
+  word-spacing: normal;
+  word-break: keep-all;
   border-radius: 1em;
   height: 2em !important;
+  max-height: 2em !important;
   width: auto !important;
   padding-left: 1em !important;
   padding-right: 1em !important;
@@ -370,8 +378,12 @@ h6 {
   display: -webkit-inline-flex !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
+  word-wrap: normal;
+  word-spacing: normal;
+  word-break: keep-all;
   border-radius: 2em;
   height: 4em !important;
+  max-height: 4em !important;
   width: auto !important;
   padding-left: 2em !important;
   padding-right: 2em !important;
@@ -381,8 +393,12 @@ h6 {
   display: -webkit-inline-flex !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
+  word-wrap: normal;
+  word-spacing: normal;
+  word-break: keep-all;
   border-radius: 3em;
   height: 6em !important;
+  max-height: 6em !important;
   width: auto !important;
   padding-left: 3em !important;
   padding-right: 3em !important;
@@ -491,18 +507,6 @@ hr {
   max-width: 1em;
 }
 
-#header .top-navigation-right .download {
-  border-radius: 20px;
-  padding-left: .5em !important;
-}
-
-#header .top-navigation-right .download svg {
-  margin-right: 10px;
-  padding-bottom: 3px;
-  min-width: 1.2em !important;
-  min-height: 1.2em !important;
-}
-
 #header a {
   padding-right: 2rem;
 }
@@ -536,18 +540,6 @@ hr {
   height: 2em !important;
   padding: 0 !important;
   border-radius: 50% !important;
-}
-
-#footer #footer-left .download {
-  border-radius: 20px;
-  padding-left: .5em !important;
-}
-
-#footer #footer-left .download svg {
-  margin-right: 10px;
-  padding-bottom: 3px;
-  min-width: 1.2em !important;
-  min-height: 1.2em !important;
 }
 
 @media (min-width: 768px) {
@@ -921,7 +913,7 @@ hr {
   display: block;
   -webkit-filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, 0.2));
           filter: drop-shadow(45px 45px 45px rgba(0, 0, 0, 0.2));
-  float: right;
+  float: left;
   max-height: 90vh;
 }
 
@@ -1177,8 +1169,6 @@ section#love-game .overview-block .overview-more a {
 section#love-game .overview-block .overview-more a {
   color: white;
   border-color: white;
-  transition: color 0.2s ease;
-  transition: background-color 0.2s ease;
 }
 
 section#love-game .overview-block .overview-more a:hover {
@@ -1189,17 +1179,6 @@ section#love-game .overview-block .overview-more a.download:hover {
   color: #49C1AC;
   background-color: white;
   opacity: 1;
-}
-
-section#love-game .overview-block .overview-more .download * {
-  padding: 0;
-  padding-left: .2em;
-  padding-right: .3em;
-  margin: 0;
-}
-
-section#love-game .overview-block .overview-more .download svg {
-  height: 30px;
 }
 
 section#brand-assets {
